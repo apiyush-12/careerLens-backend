@@ -4,8 +4,8 @@ import re
 SKILL_ALIASES = {
 
     # ── Programming Languages ──────────────────────────────────────────────
-    "python":       ["python"],
-    "java":         ["java"],
+    "python":       ["python", "Python"],
+    "java":         ["java", "Java"],
     "c++":          ["c++", "cpp", "c plus plus"],
     "c":            ["c programming", "c language"],
     "c#":           ["c#", "csharp", "c sharp"],
@@ -28,8 +28,8 @@ SKILL_ALIASES = {
     "html":         ["html", "html5"],
     "css":          ["css", "css3"],
     "sass":         ["sass", "scss"],
-    "react":        ["react", "reactjs", "react js"],
-    "next.js":      ["next", "nextjs", "next js"],
+    "react":        ["react", "reactjs", "react js", "React.js"],
+    "next.js":      ["next", "nextjs", "next js", "Next.js"],
     "vue.js":       ["vue", "vuejs", "vue js"],
     "angular":      ["angular", "angularjs"],
     "svelte":       ["svelte", "sveltejs"],
@@ -90,9 +90,9 @@ SKILL_ALIASES = {
 
     # ── Databases ──────────────────────────────────────────────────────────
     "sql":          ["sql", "structured query language", "mysql", "MySQL","SQL"],
-    "postgresql":   ["postgresql", "postgres"],
+    "postgresql":   ["postgresql", "postgres", "postgreSQL", "PostgreSQL"],
     "sqlite":       ["sqlite"],
-    "mongodb":      ["mongodb", "mongo"],
+    "mongodb":      ["mongodb", "mongo", "MongoDB"],
     "redis":        ["redis"],
     "cassandra":    ["cassandra"],
     "elasticsearch":["elasticsearch", "elastic search"],
@@ -120,8 +120,8 @@ SKILL_ALIASES = {
     "apache":           ["apache"],
 
     # ── Tools & Platforms ──────────────────────────────────────────────────
-    "git":          ["git"],
-    "github":       ["github"],
+    "git":          ["git", "Git"],
+    "github":       ["github", "GitHub"],
     "gitlab":       ["gitlab"],
     "jira":         ["jira"],
     "excel":        ["excel", "microsoft excel"],
@@ -138,7 +138,7 @@ SKILL_ALIASES = {
     # ── Cybersecurity ──────────────────────────────────────────────────────
     "cybersecurity":    ["cybersecurity", "cyber security", "information security", "infosec"],
     "penetration testing": ["penetration testing", "pen testing", "pentesting"],
-    "networking":       ["networking", "computer networks", "tcp ip"],
+    "networking":       ["networking", "computer networks", "tcp ip", "Networking"],
     "cryptography":     ["cryptography", "encryption"],
 
     # ── Soft & Other ───────────────────────────────────────────────────────
