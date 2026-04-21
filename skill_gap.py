@@ -48,7 +48,6 @@ ROLE_SKILLS = {
         "django",
         "flask",
         "sql",
-        "mysql",
         "postgresql",
         "api",
         "git"
